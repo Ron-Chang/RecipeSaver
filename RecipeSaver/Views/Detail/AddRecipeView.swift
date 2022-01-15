@@ -74,7 +74,7 @@ struct AddRecipeView: View {
 
                     NavigationLink(isActive: $navigateToRecipe) {
                         RecipeView(recipe: recipesVM.recipes.sorted{ $0.datePublished > $1.datePublished }[0])
-//                            .navigationBarBackButtonHidden(true)
+                            .navigationBarBackButtonHidden(true)
                     } label: {
                         Button {
                             saveRecipe()
