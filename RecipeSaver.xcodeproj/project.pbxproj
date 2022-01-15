@@ -23,6 +23,7 @@
 		E4BED8FE27909509003A1A0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BED8FD27909509003A1A0C /* ContentView.swift */; };
 		E4BED9002790950B003A1A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4BED8FF2790950B003A1A0C /* Assets.xcassets */; };
 		E4BED9032790950B003A1A0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4BED9022790950B003A1A0C /* Preview Assets.xcassets */; };
+		E4EF171C2792B9FD00AEC766 /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF171B2792B9FD00AEC766 /* RecipesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		E4BED8FD27909509003A1A0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4BED8FF2790950B003A1A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4BED9022790950B003A1A0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4EF171B2792B9FD00AEC766 /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		E4BED90F27909658003A1A0C /* VeiwModels */ = {
 			isa = PBXGroup;
 			children = (
+				E4EF171B2792B9FD00AEC766 /* RecipesViewModel.swift */,
 			);
 			path = VeiwModels;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				E4892E7C2790AB4400E72570 /* RecipeList.swift in Sources */,
 				E4892E6C279097D600E72570 /* HomeView.swift in Sources */,
 				E4BED8FE27909509003A1A0C /* ContentView.swift in Sources */,
+				E4EF171C2792B9FD00AEC766 /* RecipesViewModel.swift in Sources */,
 				E4BED8FC27909509003A1A0C /* RecipeSaverApp.swift in Sources */,
 				E4892E7827909E0000E72570 /* RecipeModel.swift in Sources */,
 			);
@@ -292,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -347,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RecipeView: View {
     var recipe: Recipe
-    
+
     var body: some View {
         ScrollView {
             AsyncImage(url: URL(string: recipe.image)) { image in
@@ -31,26 +31,26 @@ struct RecipeView: View {
                     .font(.largeTitle)
                     .bold()
                     .multilineTextAlignment(.center)
-                
+
                 VStack(alignment: .leading, spacing: 30) {
                     if !recipe.description.isEmpty {
                         Text(recipe.directions)
                     }
-                    
+
                     if !recipe.ingredients.isEmpty {
                         VStack(alignment: .leading, spacing: 20) {
                             Text("Ingredients")
                                 .font(.headline)
-                            
+
                             Text(recipe.ingredients)
                         }
                     }
-                    
+
                     if !recipe.directions.isEmpty {
                         VStack(alignment: .leading, spacing: 20) {
                             Text("Directions")
                                 .font(.headline)
-                            
+
                             Text(recipe.directions)
                         }
                     }
